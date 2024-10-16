@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <style>
+        body {
+            background-color: #1f1f38;
+        }
+
+        /* img {
+            mix-blend-mode: multiply;
+        } */
+
+        .social-icons {
+            /* align-items: start; */
+            /* position: relative; */
+            bottom: 100px;
+            gap: 10px;
+        }
+
+        .grid-system {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .left-content {
+            /* text-align: start; */
+
+            /* border: 1px solid black; */
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            row-gap: 2rem;
+            margin-top: 20px;
+        }
+
+        .right-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            row-gap: 2rem;
+            margin-top: 20px;
+        }
+
+        .left {
+            border: 1px solid transparent;
+            background-color: #2c2c6c;
+            padding: 2.4rem 5rem;
+            border-radius: 2rem;
+            width: 80%;
+            position: relative;
+            left: 100px;
+            transition: all 400ms ease;
+        }
+
+        .right {
+            border: 1px solid transparent;
+            background-color: #2c2c6c;
+            padding: 2.4rem 5rem;
+            border-radius: 2rem;
+            width: 80%;
+            position: relative;
+            left: 50px;
+            transition: all 400ms ease;
+        }
+
+        .left:hover {
+            background: transparent;
+            border-color: rgba(77, 181, 255, 0.4);
+            cursor: pointer;
+        }
+
+        .right:hover {
+            background: transparent;
+            border-color: rgba(77, 181, 255, 0.4);
+            cursor: pointer;
+        }
+
+        .paragraph {
+            /* white-space: pre; */
+            text-wrap: stable;
+            font-size: 20px;
+            /* border: 1px solid white; */
+            /* width: 50%; */
+        }
+
+        .my-projects {
+            margin-top: 70px;
+            display: flex;
+            gap: 50px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: #2c2c6c;
+            color: white;
+            transition: all 400ms ease;
+        }
+
+        .card:hover {
+            background: transparent;
+            border-color: rgba(77, 181, 255, 0.4);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <div class="container text-center mt-5 text-white position-relative">
+        <h5>Hello I'm</h5>
+        <h1 class="mb-3">Dhruv Sawant</h1>
+        <h5 class="mb-4">FullStack Developer</h5>
+        <button class="btn btn-primary p-3" >Download CV</button>
+        <a class="btn btn-secondary p-3 " href="#contactme">Lets Talk</a><br>
+        <img class="mt-4" src="DSC_0277n.jpg" alt="photo here">
+        <div class="social-icons mt-4 nav flex-column align-items-start position-relative gap-3">
+            <a href="https://www.linkedin.com/in/dhruv-sawant-3aa78a232/" target="_blank"><i
+                    class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/devilshade1902" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+        </div>
+    </div>
+    <div>
+        <h5 class="text-white text-center">Get To Know Me</h5>
+        <h2 class="text-primary text-center">About Me</h2>
+        <div class="text-primary grid-system ">
+            <div class="left">
+                <h3>Frontend Development</h3>
+                <div class="left-content">
+                    <section class="text-white">
+                        <h4>HTML</h4>
+                        <small>Experienced</small>
+                    </section>
+                    <section class="text-white">
+                        <h4>CSS</h4>
+                        <small>Intermediate</small>
+                    </section>
+                    <section class="text-white">
+                        <h4>JavaScript</h4>
+                        <small>Intermediate</small>
+                    </section>
+                    <section class="text-white">
+                        <h4>BootStrap</h4>
+                        <small>Beginner</small>
+                    </section>
+                    <section class="text-white">
+                        <h4>Tailwind</h4>
+                        <small>Beginner</small>
+                    </section>
+                    <section class="text-white">
+                        <h4>React</h4>
+                        <small>Intermediate</small>
+                    </section>
+                </div>
+            </div>
+            <div class="right">
+                <h3>Backend Development</h3>
+                <div class="right-content">
+                    <section class="text-white ">
+                        <h4>NodeJS</h4>
+                        <small>Beginner</small>
+                    </section>
+                    <section class="text-white">
+                        <h4>MongoDB</h4>
+                        <small>Beginner</small>
+                    </section>
+                    <section class="text-white">
+                        <h4>MYSQL</h4>
+                        <small>Intermediate</small>
+                    </section>
+                    <section class="text-white">
+                        <h4>Python</h4>
+                        <small>Intermediate</small>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="text-white about-me-info text-center p-4">
+            <p class="paragraph text-right mt-5">
+                I am passionate and focused web developer with knowledge in frontend development and backend
+                development. Currently pursuing my Bcom at Rd national college, I am also Currently learning databases and I also have a
+                constant drive to learn new things and technologies. I am constantly seeking opportunities to grow, whether through
+                internships or collaboration on exciting new projects. I am eager to contribute my skills to impactful
+                projects while continuing to learn new technologies.
+            </p>
+            <button class="btn btn-primary text-center btn-letstalk p-3">Let's Talk</button>
+        </div>
+    </div>
+    <div class="projects">
+        <h2 class="text-primary text-center ">My Projects</h2>
+        <div class="my-projects text-center ">
+            <div class="card" style="width: 18rem; height: 10rem; ">
+                <div class="card-body">
+                    <h5 class="card-title">Weather website</h5>
+                    <p class="card-text">Created this website using react</p>
+                    <a href="https://dhruvweather.pages.dev" target="_blank" class="card-link">The link to my
+                        project</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;  height: 10rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Food Delivery </h5>
+                    <p class="card-text">Created using HTML,CSS,REACT</p>
+                    <a href="https://dhruvweather.pages.dev" target="_blank" class="card-link">The link to my
+                        project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="contactme" class="contact-section mt-5">
+        <div class="container">
+            <h2 class="section-title text-center text-primary">Contact Me</h2>
+            <p class="text-center text-muted">Feel free to reach out for collaborations or just a friendly chat!</p>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message"
+                                required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary mt-5">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>About Me</h5>
+                    <p>
+                        I'm Dhruv Sawant, a passionate web developer, constantly learning and working on new projects.
+                        I'm looking for opportunities to contribute my skills and gain real-world experience.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 ">
+                    <h5 class="contactme">Contact Information</h5>
+                    <p><strong>Email:</strong> dhruvsawant1811@gmail.com</p>
+                    <p><strong>Location:</strong> Byculla East, Mumbai</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Connect with Me</h5>
+                    <a href="https://facebook.com" target="_blank" class="text-white me-3">
+                        <i class="bi bi-facebook" style="font-size: 24px;"></i>
+                    </a>
+                    <a href="https://github.com/devilshade1902" target="_blank" class="text-white me-3">
+                        <i class="bi bi-github" style="font-size: 24px;"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="text-white me-3">
+                        <i class="bi bi-instagram" style="font-size: 24px;"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="text-white me-3">
+                        <i class="bi bi-linkedin" style="font-size: 24px;"></i>
+                    </a>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2024 Dhruv Sawant | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
